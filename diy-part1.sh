@@ -17,6 +17,5 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 rm -rf package/lean/luci-app-jd-dailybonus
-git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
 git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
