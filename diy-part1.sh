@@ -16,6 +16,4 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-rm -rf package/lean/luci-app-jd-dailybonus
-git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
+sed -i 's/#src-git helloworld/src-git helloworld/g' feeds.conf.default
